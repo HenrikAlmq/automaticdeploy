@@ -1,0 +1,11 @@
+POST http://localhost:5000/
+Content-Type: application/json
+
+{
+    "mail": "henrik@mail.se"
+}
+###
+
+GET http://localhost:5000/emails
+
+###
